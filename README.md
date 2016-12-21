@@ -8,5 +8,6 @@ This script relies problably on the following firmware version on the device:
 
 Designed to run on Linux i. e. Raspbian. Requires curl and bc.
 
-Example for invocation via /etc/crontab
+Example for invocation via /etc/crontab:
+
 */15   *     * * *  root   /opt/hp5200update.sh
