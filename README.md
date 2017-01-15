@@ -8,9 +8,9 @@ This type of printer is robust, can print in A3 and can occasionally be bought f
 This script relies problably on the following firmware version on the device:
 20110406 08.150.3
 
-The printer's web interface can be secured with a password. This is not supported at the moment.
+The printer's web interface can be secured with a password. This is **not** supported at the moment.
 
 Designed to run on Linux i. e. Raspbian. Requires curl and bc.
 
 Example for invocation via /etc/crontab:
-*/15   *     * * *  root   /opt/hp5200update.sh
+`*/15   *     * * *  root   /opt/hp5200update.sh`
